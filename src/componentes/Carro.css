@@ -1,0 +1,10 @@
+.Carro {
+    margin-top: 62px;
+}
+
+.carro-img {
+    border: solid rgb(94, 33, 41)  3px;
+    height: 670px;
+    width: 100%;
+    object-fit: cover;
+}
