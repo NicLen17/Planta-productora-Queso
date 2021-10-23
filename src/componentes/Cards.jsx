@@ -2,6 +2,15 @@ import React from 'react'
 import { Card, Button, CardGroup, Nav } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 import './Cards.css'
+import Carla from '../img/Carla.jpeg'
+import Panoramica1 from '../img/Panorama1.jpeg'
+import Panoramica2 from '../img/Panoramica2.jpeg'
+import Ordeño2 from '../img/Ordeño2.jpeg'
+import Tarro from '../img/Tarro de leche.jpeg'
+import Vacas from '../img/Vacas.jpeg'
+import Ordeñop from '../img/Ordeño panoramico.jpeg'
+import Foto from '../img/Foto  grupal.jpeg'
+import Embudo from '../img/Embudo.jpeg'
 
 export default function Cards() {
     return (
@@ -167,25 +176,24 @@ export default function Cards() {
                     </div>
                     <div className="bpm-text">
                         <b><p>En el contexto actual de pandemia de COVID-19, las actividades de producción y comercialización de la industria láctea fueron exceptuadas del aislamiento social, preventivo y obligatorio, por lo cual, las normas sanitarias tienen que ser estrictas.</p></b>
-                        <b><p>Para explicar con más profundidad este tema, comenzaremos definiendo a las BPM como procedimientos que se aplican en el procesamiento de alimentos y su utilidad radica en que nos permite diseñar adecuadamente la planta y las instalaciones, así como también realizar de forma eficaz los procesos y operaciones de elaboración, almacenamiento, transporte y distribución , asegurando un alimento inocuo para el consumo humano</p></b>
+                        <b><p>Las BPM son los principios básicos y prácticas de higiene en la manipulación, preparación, procesamiento, envasado, almacenamiento, transporte y distribución de alimentos.</p></b>
                         <b><p>Estas se aplican tanto en operarios, como en establecimiento y etapas de produccion</p></b>
                     </div>
                     <img src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
                 </div>
+                <div className="titulo-calidad">
+                    <b><p>Calidad</p></b>
+                </div>
                 <div className="controles-calidad">
-                    <div className="titulo-calidad">
-                        <b><p>Calidad</p></b>
-                    </div>
                     <div className="calidad-text">
-                        <b><p>Muchos de los productos que consumes cada día debieron recorrer una gran variedad de pruebas y estudios para garantizar la mejor calidad posible y en nuesro caso, no es diferente</p></b>
+                        <b><p>Muchos de los productos que consumes cada día debieron recorrer una gran variedad de pruebas y estudios para garantizar la mejor calidad posible y en nuesro caso, no es diferente.</p></b>
                         <b><p>Luego de realizar una serie de análisis se determina si el producto es apto para el consumo, algunos de estos análisis son:</p></b>
-                        <b><p>Análisis de pH: El pH de los alimentos es la forma de medir de forma cuantitativa su nivel de acidez. Determinar de forma exacta la acidez de un alimento a través de su valor de pH es de suma importancia en la elaboración de conservas seguras.</p></b>
-                        <b><p>Análisis de acidez: Comúnmente la acidez se determina mediante una valoración (volumetría) con un reactivo básico. El resultado (para el índice de acidez) se expresa como el % del ácido predominante en el material. Ej: En aceites es el % en ácido oléico, en zumo de frutas es el % en ácido cítrico, en leche es el % en ácido láctico</p></b>
-                        <b><p>Adulteración: Alteración de la calidad o pureza de algo por la adición de una sustancia extraña: adulteración de bebidas alcohólicas. Falsificación o manipulación de la verdad: adulteración de la información.</p></b>
-                        <b><p>Coliformes: Las bacterias coliformes se utilizan frecuentemente como indicador bacteriano de la calidad sanitaria de los alimentos y el agua. Se definen como bacterias gramnegativas, con forma de bastón, no formadoras de esporas, que pueden fermentar la lactosa con producción de ácido y gas cuando se las incuba a 35–37 °C. </p></b>
-                        <b><p>Salmonella: La identificación bioquímica de Salmonella se realiza generalmente junto con una confirmación serológica. Esta técnica laboriosa implica la aglutinación de los antígenos superficiales bacterianos con anticuerpos específicos para el género </p></b>
+                        <b><p data-aos="fade-up">-Análisis de pH</p></b>
+                        <b><p data-aos="fade-up">-Análisis de acidez</p></b>
+                        <b><p data-aos="fade-up">-Adulteración</p></b>
+                        <b><p data-aos="fade-up">-Coliformes </p></b>
+                        <b><p data-aos="fade-up">-Salmonella</p></b>
                     </div>
-                    <img src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
                     <img src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
                 </div>
             </div>
@@ -196,12 +204,17 @@ export default function Cards() {
             </div>
             <div className="galeria">
                 <div className="galeria-cont">
-                    <img src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
-                    <img src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
-                    <img src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
-                    <img src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
-                    <img src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
-                    <img src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
+                    <img className="galeria-img" src={Panoramica1} alt="" />
+                    <img className="galeria-img" src={Panoramica2} alt="" />
+                    <img className="galeria-img" src={Ordeño2} alt="" />
+                </div><div className="galeria-cont">
+                    <img className="galeria-img" src={Ordeñop} alt="" />
+                    <img className="galeria-img" src={Tarro} alt="" />
+                    <img className="galeria-img" src={Embudo} alt="" />
+                </div><div className="galeria-cont">
+                    <img className="galeria-img" src={Vacas} alt="" />
+                    <img className="galeria-img" src={Carla} alt="" />
+                    <img className="galeria-img" src={Foto} alt="" />
                 </div>
             </div>
         </div>
