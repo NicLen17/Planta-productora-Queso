@@ -153,25 +153,30 @@
 }
 
 .controles-calidad {
-
 }
 
 .titulo-calidad {
-        text-align: justify;
-        font-size: 30px;
-        display: flex;
-        align-items: flex-start !important;
-        font-family: "Noto Serif Display", serif;
-        margin-left: 50px;
-        font-size: 30px !important;
-        margin-left: 70px;
-        margin-right: 70px;
-    }
+    text-align: justify;
+    font-size: 30px;
+    display: flex;
+    align-items: flex-start !important;
+    font-family: "Noto Serif Display", serif;
+    margin-left: 50px;
+    font-size: 30px !important;
+    margin-left: 70px;
+    margin-right: 70px;
+}
 
 .calidad-text {
     text-align: justify;
     margin-left: 70px;
     margin-right: 70px;
+}
+
+.galeria {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .espaciado {
