@@ -20,11 +20,11 @@ function App() {
 
         <NavBar />
 
+        <Carro />
+
         <Switch>
 
         <Route path="/" exact>
-
-        <Carro />
 
         <Cards />
 

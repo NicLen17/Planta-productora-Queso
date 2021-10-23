@@ -21,14 +21,14 @@ export default function NavBar() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav>
-                            <Nav.Link to="/" exact as={NavLink} style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav" href="">Inicio</Nav.Link>
-                            <Nav.Link style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav mv-1" href="#about">Sobre nosotros</Nav.Link>
-                            <Nav.Link to="/carrito" exact as={NavLink} style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav" href="#galeria">Encuestas</Nav.Link>
+                            <b><Nav.Link to="/" exact as={NavLink} style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav" href="">Inicio</Nav.Link></b>
+                            <b><Nav.Link style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav mv-1" href="#about">Sobre nosotros</Nav.Link></b>
+                            <b><Nav.Link to="/carrito" exact as={NavLink} style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav" href="#galeria">Encuestas</Nav.Link></b>
 
-                            <NavDropdown title="Controles" style={{ paddingTop: "6px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav" id="basic-nav-dropdown">
-                                <Nav.Link to="/login" style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} exact as={NavLink} className="efecto-nav" href="">Higene y Seguridad</Nav.Link>
-                                <Nav.Link to="/login" style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} exact as={NavLink} className="efecto-nav" href="">Controles de calidad</Nav.Link>
-                            </NavDropdown>
+                            <b><NavDropdown title="Controles" style={{ paddingTop: "6px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav" id="basic-nav-dropdown">
+                                <b><Nav.Link to="/login" style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} exact as={NavLink} className="efecto-nav" href="">Higene y Seguridad</Nav.Link></b>
+                                <b><Nav.Link to="/login" style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} exact as={NavLink} className="efecto-nav" href="">Controles de calidad</Nav.Link></b>
+                            </NavDropdown></b>
                         </Nav>
                         <br />
                     </Navbar.Collapse>

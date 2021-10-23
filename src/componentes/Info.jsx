@@ -1,5 +1,6 @@
 import React from 'react'
-import { Card, CardGroup } from 'react-bootstrap'
+import { Card, CardGroup, Nav } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
 import './Info.css'
 
 export default function Info() {
@@ -67,30 +68,34 @@ export default function Info() {
                     </b></h1>
                 </div>
                 <CardGroup className="card-flex">
-                    <div className="card-flex">
-                        <Card data-aos="fade-up-left" className="card-cont" style={{width: "35rem"}}>
-                            <Card.Img className="card-img" variant="top" src="https://infonegocios.info/uploads/nestle-logo-top-100-brands-cba.jpg" />
-                            <Card.Body>
-                                <Card.Title>Sala Vieja</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </div>
-                    <div className="card-flex">
-                        <Card data-aos="fade-up-left" className="card-cont" style={{width: "35rem"}}>
-                            <Card.Img className="card-img" variant="top" src="https://infonegocios.info/uploads/nestle-logo-top-100-brands-cba.jpg" />
-                            <Card.Body>
-                                <Card.Title>Isidro</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </div>
+                    <Nav.Link to="/isidro" exact as={NavLink} href="#galeria">
+                        <div className="card-flex">
+                            <Card data-aos="fade-up-left" className="card-cont" style={{ width: "35rem" }}>
+                                <Card.Img className="card-img" variant="top" src="https://infonegocios.info/uploads/nestle-logo-top-100-brands-cba.jpg" />
+                                <Card.Body>
+                                    <Card.Title>Sala Vieja</Card.Title>
+                                    <Card.Text>
+                                        Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    </Nav.Link>
+                    <Nav.Link to="/isidro" exact as={NavLink} href="#galeria">
+                        <div className="card-flex">
+                            <Card data-aos="fade-up-left" className="card-cont" style={{ width: "35rem" }}>
+                                <Card.Img className="card-img" variant="top" src="https://infonegocios.info/uploads/nestle-logo-top-100-brands-cba.jpg" />
+                                <Card.Body>
+                                    <Card.Title>Isidro</Card.Title>
+                                    <Card.Text>
+                                        Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    </Nav.Link>
                 </CardGroup>
             </div>
         </div>
