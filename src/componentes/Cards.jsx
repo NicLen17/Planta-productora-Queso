@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Button, CardGroup, Nav } from 'react-bootstrap'
+import { Card , CardGroup, Nav } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 import './Cards.css'
 import Carla from '../img/Carla.jpeg'
@@ -11,44 +11,55 @@ import Vacas from '../img/Vacas.jpeg'
 import Ordeñop from '../img/Ordeño panoramico.jpeg'
 import Foto from '../img/Foto  grupal.jpeg'
 import Embudo from '../img/Embudo.jpeg'
+import Ro from '../img/Ro.jpeg'
+import Vaca from '../img/Vaca.jpeg'
+import Vacapan from '../img/Vacaspan.jpeg'
+import Ordeñado from '../img/Ordeñadora.jpeg'
+import Quesoviejo from '../img/Queso viejo.jpeg'
+import Fotoentera from '../img/Fotoentera.jpeg'
+import Fotoentera2 from '../img/Fotoentera2.jpeg'
+import Preparacion from '../img/Preparacion.jpeg'
+import Comedor from '../img/Comedor.jpeg'
+import Cartelsv from '../img/Cartelsv.jpeg'
+
+
 
 export default function Cards() {
     return (
-        <div data-aos="fade-up" className="Inicio">
+        <div data-aos="fade-up" className="Inicio" id="inicio">
             <div className="titulos">
                 <h1><b>
                     Industria Lechera
                 </b></h1>
             </div>
             <div className="info-container1">
-                <div className="info-box">
+                <div data-aos="fade-up"  className="info-box">
                     <img src="https://bmeditores.mx/wp-content/uploads/2021/06/necesidades-basicas-vacas-lecheras-1.jpg" alt="" />
                     <img src="https://www.infocampo.com.ar/wp-content/uploads/2018/05/leche-industria.jpg" alt="" />
                 </div>
                 <div className="box-text-container">
                     <div>
-                        <h3 className="box-titulo"><b> Industria Lechera Tucumana </b></h3>
+                        <h3 data-aos="fade-up" className="box-titulo"><b> Industria lechera Tucumana </b></h3>
                     </div>
-                    <div className="box-text">
+                    <div data-aos="fade-up" className="box-text">
                         <b><p>La provincia de Tucumán posee una gran tradición en la producción láctea con condiciones agroecológicas que le permiten alcanzar altos estándares de competitividad respecto de las cuencas centrales de Argentina y por lo tanto de las cuencas lecheras mundiales.</p></b>
                     </div>
-                    <Nav.Link to="/info" exact as={NavLink} style={{ width: "150px", marginLeft: "65px" }} variant="global-btn" className="global-btn btn" href="#galeria"><b>+ Info</b></Nav.Link>
                 </div>
             </div>
             <div className="titulos" id="about">
-                <h1><b>
+                <h1 data-aos="fade-right"><b>
                     Proyecto pltanta productora
                 </b></h1>
             </div>
             <div className="about">
-                <div className="about-img">
+                <div data-aos="fade" className="about-img">
                     <img style={{ width: "100%", height: "100%" }} src="https://bmeditores.mx/wp-content/uploads/2021/06/necesidades-basicas-vacas-lecheras-1.jpg" alt="" />
                 </div>
                 <div>
                     <div>
-                        <p className="about-titulo"><b>¿Quienes somos?</b></p>
+                        <p data-aos="fade-up" className="about-titulo"><b>¿Quienes somos?</b></p>
                     </div>
-                    <b><p className="about-text">Somos Keis, una marca local que elabora productos derivados lacteos principalmente queso. <br /><br />
+                    <b><p data-aos="fade-up" className="about-text">Somos Keis, una marca local que elabora productos derivados lacteos principalmente queso. <br /><br />
                         Nuestro principal objetivo es brindar información y fomentar el consumo de productos lacteos locales además de ofrecer un producto seguro y delicioso para nuestra comunidad.
                     </p></b>
                 </div>
@@ -111,8 +122,8 @@ export default function Cards() {
                     </div>
                 </CardGroup>
                 <div className="titulo-info" id="about">
-                    <h1><b>
-                        Productoras Locales Artesanales
+                    <h1 data-aos="fade-right"><b>
+                        Productoras locales artesanales visitadas
                     </b></h1>
                 </div>
                 <CardGroup className="card-flex">
@@ -146,75 +157,90 @@ export default function Cards() {
                     </Nav.Link>
                 </CardGroup>
             </div>
-            <div className="titulos">
-                <h1><b>
-                    Encuestas Locales
+            <div className="titulos" id="encuesta">
+                <h1 data-aos="fade-right"><b>
+                    Encuestas locales
                 </b></h1>
             </div>
             <div className="encuestas">
                 <div className="encuestas-text">
-                    <b><p>
+                    <b><p data-aos="fade-up">
                         Con el fin de informarnos sobre el conocimiento que poseen las personas de nuestra comunidad acerca de las marcas locales, así como también recopilar datos sobre aspectos como ser
                         sus gustos, tendencias de consumo, factores de elección a la hora de adquirir un producto.
                     </p></b>
                 </div>
                 <div>
-                    <img src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
-                    <img src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
-                    <img src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
+                    <img data-aos="fade-right" src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
+                    <img data-aos="fade-up" src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
+                    <img data-aos="fade-left" src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
                 </div>
             </div>
             <div className="titulos">
-                <h1><b>
+                <h1 data-aos="fade-right"><b>
                     Controles
                 </b></h1>
             </div>
             <div className="controles">
-                <div className="controles-bpm">
+                <div id="higene" className="controles-bpm">
                     <div className="titulo-bpm">
-                        <b><p>Buenas Practicas de Manufactura - BPM</p></b>
+                        <b><p data-aos="fade-right">Buenas Practicas de Manufactura - BPM</p></b>
                     </div>
-                    <div className="bpm-text">
+                    <div data-aos="fade-up" className="bpm-text">
                         <b><p>En el contexto actual de pandemia de COVID-19, las actividades de producción y comercialización de la industria láctea fueron exceptuadas del aislamiento social, preventivo y obligatorio, por lo cual, las normas sanitarias tienen que ser estrictas.</p></b>
                         <b><p>Las BPM son los principios básicos y prácticas de higiene en la manipulación, preparación, procesamiento, envasado, almacenamiento, transporte y distribución de alimentos.</p></b>
                         <b><p>Estas se aplican tanto en operarios, como en establecimiento y etapas de produccion</p></b>
                     </div>
-                    <img src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
+                    <img data-aos="fade-up-right" className="bpm-img" src="https://www.impulsapopular.com/wp-content/uploads/2018/08/4218-Importancia-y-marco-legal-para-las-empresas-de-alimentos-y-bebidas-700x467.jpg" alt="" />
+                    <img data-aos="fade-up-left" className="bpm-img" src="https://grupoexo.eu/wp-content/uploads/2019/10/limpio.jpg" alt="" />
                 </div>
-                <div className="titulo-calidad">
-                    <b><p>Calidad</p></b>
+                <div id="control" className="titulo-calidad">
+                    <b><p data-aos="fade-right">Calidad</p></b>
                 </div>
                 <div className="controles-calidad">
                     <div className="calidad-text">
-                        <b><p>Muchos de los productos que consumes cada día debieron recorrer una gran variedad de pruebas y estudios para garantizar la mejor calidad posible y en nuesro caso, no es diferente.</p></b>
-                        <b><p>Luego de realizar una serie de análisis se determina si el producto es apto para el consumo, algunos de estos análisis son:</p></b>
+                        <b><p data-aos="fade-up">Muchos de los productos que consumes cada día debieron recorrer una gran variedad de pruebas y estudios para garantizar la mejor calidad posible y en nuesro caso, no es diferente.</p></b>
+                        <b><p data-aos="fade-up">Luego de realizar una serie de análisis se determina si el producto es apto para el consumo, algunos de estos análisis son:</p></b> <br />
                         <b><p data-aos="fade-up">-Análisis de pH</p></b>
                         <b><p data-aos="fade-up">-Análisis de acidez</p></b>
                         <b><p data-aos="fade-up">-Adulteración</p></b>
                         <b><p data-aos="fade-up">-Coliformes </p></b>
                         <b><p data-aos="fade-up">-Salmonella</p></b>
                     </div>
-                    <img src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
+                    <img data-aos="fade" className="calidad-img" src="https://lh3.googleusercontent.com/proxy/SDQyF_KQizUPnQq2_FFGvWYMUZO5ShvLiwGXByof1br7ieTsMTmIIb5o114YSdtu7pS-O0QfaKuMCvxkJzBmiUKGjiB6TxM2WGz-8s4dpoKVbgRwFVWTSq9b3aMiIkMeQ-Y9Png" alt="" />
                 </div>
             </div>
             <div className="titulos" id="about">
-                <h1><b>
+                <h1 data-aos="fade-right"><b>
                     Galeria
                 </b></h1>
             </div>
-            <div className="galeria">
+            <div data-aos="fade-up" className="galeria" id="galeria">
                 <div className="galeria-cont">
-                    <img className="galeria-img" src={Panoramica1} alt="" />
+                    <img className="galeria-img" style={{ height: "320px" }} src={Panoramica1} alt="" />
                     <img className="galeria-img" src={Panoramica2} alt="" />
-                    <img className="galeria-img" src={Ordeño2} alt="" />
-                </div><div className="galeria-cont">
-                    <img className="galeria-img" src={Ordeñop} alt="" />
-                    <img className="galeria-img" src={Tarro} alt="" />
+                    <img className="galeria-img" src={Ordeñado} alt="" />
+                    <img className="galeria-img" src={Vacapan} alt="" />
                     <img className="galeria-img" src={Embudo} alt="" />
-                </div><div className="galeria-cont">
-                    <img className="galeria-img" src={Vacas} alt="" />
-                    <img className="galeria-img" src={Carla} alt="" />
+                </div>
+                <div className="galeria-cont">
+                    <img className="galeria-img" src={Ordeño2} alt="" />
+                    <img className="galeria-img" src={Ordeñop} alt="" />
+                    <img className="galeria-img" src={Vaca} alt="" />
+                    <img className="galeria-img" style={{ height: "380px" }} src={Tarro} alt="" />
+                </div>
+                <div className="galeria-cont">
+                    <img className="galeria-img" style={{ height: "295px" }} src={Vacas} alt="" />
                     <img className="galeria-img" src={Foto} alt="" />
+                    <img className="galeria-img" src={Carla} alt="" />
+                    <img className="galeria-img" src={Ro} alt="" />
+                </div>
+                <div className="galeria-cont">
+                    <img className="galeria-img" src={Cartelsv} alt="" />
+                    <img className="galeria-img" src={Fotoentera} alt="" />
+                    <img className="galeria-img" src={Fotoentera2} alt="" />
+                    <img className="galeria-img" src={Comedor} alt="" />
+                    <img className="galeria-img" src={Preparacion} alt="" />
+                    <img className="galeria-img" src={Quesoviejo} alt="" />
                 </div>
             </div>
         </div>

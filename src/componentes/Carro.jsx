@@ -4,7 +4,7 @@ import './Carro.css'
 
 export default function Carro() {
     return (
-        <div data-aos="fade-down" className="Carro-body">
+        <div data-aos="fade-down" data-aos-duration="2000" className="Carro-body">
             <div className="Carro">
                 <Carousel variant="dark">
                     <Carousel.Item>

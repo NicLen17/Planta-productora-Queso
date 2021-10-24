@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./componentes/ScrollToTop";
 import Cards from './componentes/Cards';
 import Footer from './componentes/Footer'
-import Info from './componentes/Info';
 
 function App() {
   return (
@@ -29,10 +28,6 @@ function App() {
         <Cards />
 
         </Route>
-
-        <Route path="/info" exact>
-            <Info />
-          </Route>
 
         </Switch>
       </Router>
