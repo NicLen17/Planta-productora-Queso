@@ -8,3 +8,16 @@
     width: 100%;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 375px) {
+    .carro-img{
+        margin: auto;
+        height: 300px;
+        width: 100%;
+        border-top: solid 3px rgb(94, 33, 41);
+        border-bottom: solid 3px rgb(94, 33, 41);
+    }
+}
+
+
+
