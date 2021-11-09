@@ -20,6 +20,7 @@ import Fotoentera2 from '../img/Fotoentera2.jpeg'
 import Preparacion from '../img/Preparacion.jpeg'
 import Comedor from '../img/Comedor.jpeg'
 import Cartelsv from '../img/Cartelsv.jpeg'
+import Kesi from '../img/Kesi.jpeg'
 
 
 
@@ -101,7 +102,7 @@ export default function Cards() {
                 </div>
                 <br />
                 <div data-aos="fade" className="about-img">
-                    <img style={{ width: "100%", height: "100%" }} src="https://bmeditores.mx/wp-content/uploads/2021/06/necesidades-basicas-vacas-lecheras-1.jpg" alt="" />
+                    <img style={{ width: "270px", height: "100%" }} src={Kesi} alt="" />
                 </div>
             </div>
             <div className="titulos" id="about">
