@@ -21,8 +21,9 @@ import Preparacion from '../img/Preparacion.jpeg'
 import Comedor from '../img/Comedor.jpeg'
 import Cartelsv from '../img/Cartelsv.jpeg'
 import Kesi from '../img/Kesi.jpeg'
-
-
+import E1 from '../img/E1.jpeg'
+import E2 from '../img/E2.jpeg'
+import E3 from '../img/E3.jpeg'
 
 export default function Cards() {
     return (
@@ -200,9 +201,9 @@ export default function Cards() {
                     </p></b>
                 </div>
                 <div>
-                    <img className="encuestas-img" data-aos="fade-right" src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
-                    <img className="encuestas-img" data-aos="fade-up" src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
-                    <img className="encuestas-img" data-aos="fade-left" src="https://image.shutterstock.com/image-vector/sample-stamp-square-grunge-sign-260nw-1474408826.jpg" alt="" />
+                    <img className="encuestas-img m-1" data-aos="fade-right" src={E1} alt="" />
+                    <img className="encuestas-img m-1" data-aos="fade-up" src={E2} alt="" />
+                    <img className="encuestas-img m-1" data-aos="fade-left" src={E3} alt="" />
                 </div>
             </div>
             <div className="titulos">
