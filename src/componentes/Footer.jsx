@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-
+import Kesi from '../img/Kesi.jpeg'
 
 export default function Footer() {
   return (
@@ -9,16 +9,16 @@ export default function Footer() {
 
         <div className="footer-left">
 
-          <h3><img style={{ width: "60px", height: "60px" }} src="https://png.pngtree.com/element_our/20190603/ourlarge/pngtree-children-s-milk-drink-image_1440015.jpg" alt="" /> Keis</h3>
+          <h3><img style={{ width: "75px", height: "75px" }} src={Kesi} alt="" /> Keis</h3>
 
           <p className="footer-links">
-            <a className="mt-2 " href="#home">Inicio</a>
+            <a className="mt-2 " href="#inicio">Inicio</a>
             <br />
-            <a className="mt-2" href="#s" blog>Encuestas</a>
+            <a className="mt-2" href="#encuesta" blog>Encuestas</a>
             <br />
-            <a className="mt-2" href="#a">Controles de Higene y Seguridad</a>
+            <a className="mt-2" href="#higene">Controles de Higene y Seguridad</a>
             <br />
-            <a className="mt-2" href="#a">Controles de Calidad</a>
+            <a className="mt-2" href="#control">Controles de Calidad</a>
           </p>
 
           <div className="footer-icons">
