@@ -1,6 +1,7 @@
 import { Carousel } from 'react-bootstrap'
 import React from 'react'
 import './Carro.css'
+import Losmaskapitos from '../img/Losmaskapitos.jpeg'
 
 export default function Carro() {
     return (
@@ -17,7 +18,8 @@ export default function Carro() {
                     <Carousel.Item>
                         <img
                             className="carro-img"
-                            src="https://i2.wp.com/fortuna.perfil.com/wp-content/uploads/2019/03/0321_leche_00.jpg?fit=1600%2C1067&ssl=1"
+                            style={{objectFit:"cover"}}
+                            src={Losmaskapitos}
                             alt="Second slide"
                         />
                     </Carousel.Item>

@@ -25,6 +25,7 @@ import E1 from '../img/E1.jpeg'
 import E2 from '../img/E2.jpeg'
 import E3 from '../img/E3.jpeg'
 
+
 export default function Cards() {
     return (
         <div data-aos="fade-up" className="Inicio" id="inicio">
