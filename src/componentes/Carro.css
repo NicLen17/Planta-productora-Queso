@@ -1,16 +1,29 @@
 .Carro {
-    margin-top: 62px;
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-left: 150px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.61); 
+    box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.699);
+    border-radius: 3px !important;
 }
 
 .carro-img {
-    border: solid rgb(94, 33, 41)  3px;
+    border: solid rgb(94, 33, 41) 3px;
     height: 670px;
     width: 100%;
     object-fit: cover;
+    border-radius: 3px !important;
 }
 
-@media only screen and (max-width: 375px) {
-    .carro-img{
+@media only screen and (max-width: 1250px) {
+    .Carro {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .carro-img {
         margin: auto;
         height: 300px;
         width: 100%;
@@ -18,6 +31,3 @@
         border-bottom: solid 3px rgb(94, 33, 41);
     }
 }
-
-
-

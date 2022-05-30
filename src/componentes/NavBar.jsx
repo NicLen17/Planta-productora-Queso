@@ -25,11 +25,7 @@ export default function NavBar() {
                             <b><Nav.Link style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav mv-1" href="#about">Sobre nosotros</Nav.Link></b>
                             <b><Nav.Link style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav" href="#encuesta">Encuestas</Nav.Link></b>
                             <b><Nav.Link style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav" href="#galeria">Galeria</Nav.Link></b>
-
-                            <b><NavDropdown title="Controles" style={{ paddingTop: "6px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav" id="basic-nav-dropdown">
-                                <b><Nav.Link style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav" href="#higene">Higene y Seguridad</Nav.Link></b>
-                                <b><Nav.Link style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav" href="#control">Controles de calidad</Nav.Link></b>
-                            </NavDropdown></b>
+                            <b><Nav.Link style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav" href="#controles">Controles</Nav.Link></b>
                         </Nav>
                         <br />
                     </Navbar.Collapse>

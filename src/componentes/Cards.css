@@ -29,6 +29,8 @@
     border: solid 2px rgb(94, 33, 41);
     height: 260px;
     width: 350px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.61); 
+box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.699);
 }
 
 .card-img1 {
@@ -53,6 +55,8 @@
 }
 
 .info-box {
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.61); 
+box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.699);
     display: flex !important;
     justify-content: start !important;
     flex-direction: column;
@@ -144,6 +148,8 @@
     height: 250px;
     border: solid 2px rgb(94, 33, 41);
     border-radius: 3px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.61); 
+    box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.699);
 }
 
 .encuestas {
@@ -167,6 +173,8 @@
     border-radius: 4px;
     width: 420px;
     height: 260px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.61); 
+    box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.699);
 }
 
 .controles {
@@ -208,6 +216,8 @@
     height: 350px;
     border: rgb(94, 33, 41) solid 3px;
     border-radius: 4px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.61); 
+    box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.699);
 }
 
 .controles-calidad {
@@ -239,6 +249,8 @@
     border: rgb(94, 33, 41) solid 3px;
     border-radius: 4px;
     width: 450px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.61); 
+    box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.699);
     height: 400px;
 }
 
@@ -310,6 +322,8 @@
     margin-top: 50px;
     border: rgb(94, 33, 41) solid 2px;
     border-radius: 4px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.61); 
+    box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.699);
 }
 
 .queso-parrafo2 {
@@ -332,6 +346,8 @@
     height: 250px;
     margin-left: 170px;
     border-radius: 4px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.61); 
+    box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.699);
 }
 
 .espaciado {

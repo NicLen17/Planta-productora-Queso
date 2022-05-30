@@ -90,7 +90,7 @@ export default function Cards() {
             </div>
             <div className="titulos" id="about">
                 <h1 data-aos="fade-right"><b>
-                    Proyecto pltanta productora
+                    Proyecto planta productora
                 </b></h1>
             </div>
             <div className="about">
@@ -207,7 +207,7 @@ export default function Cards() {
                     <img className="encuestas-img m-1" data-aos="fade-left" src={E3} alt="" />
                 </div>
             </div>
-            <div className="titulos">
+            <div id='controles' className="titulos">
                 <h1 data-aos="fade-right"><b>
                     Controles
                 </b></h1>

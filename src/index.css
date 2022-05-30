@@ -12,6 +12,20 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(94, 33, 41);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff8c;
+  border-radius: 10px;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }

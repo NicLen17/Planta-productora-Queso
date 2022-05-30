@@ -1,8 +1,10 @@
 .nav {
-    background-color: white;
-    border-bottom: solid 2px rgb(94, 33, 41) !important;
-    border-bottom: 2px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
     font-family: 'Noto Serif Display', serif;
+    border: 2px solid rgb(94, 33, 41) ;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.61); 
+    box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.699);
 }
 
 .nav-container {
@@ -11,10 +13,12 @@
 
 .efecto-nav {
     transition: 0.2s;
+    color: rgb(94, 33, 41)  !important; 
 }
 
 .efecto-nav:hover {
-    color: rgb(94, 33, 41) !important;
+    color: white !important;
+    background-color: rgb(94, 33, 41) !important;
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
