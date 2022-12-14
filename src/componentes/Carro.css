@@ -1,15 +1,13 @@
 .Carro {
-    margin-top: 150px;
-    margin-right: 150px;
-    margin-left: 150px;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.61); 
     box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.699);
     border-radius: 3px !important;
 }
 
 .carro-img {
-    border: solid rgb(94, 33, 41) 3px;
-    height: 670px;
+    border-top: solid rgb(94, 33, 41) 3px;
+    border-bottom: solid rgb(94, 33, 41) 3px;
+    height: 770px;
     width: 100%;
     object-fit: cover;
     border-radius: 3px !important;

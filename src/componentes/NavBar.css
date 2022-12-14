@@ -1,8 +1,9 @@
 .nav {
     background-color: rgb(255, 255, 255);
     font-size: 20px;
+    height: 70px;
     font-family: 'Noto Serif Display', serif;
-    border: 2px solid rgb(94, 33, 41) ;
+    border-bottom: 2px solid rgb(94, 33, 41) ;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.61); 
     box-shadow: 5px 5px 15px 5px rgba(94, 33, 41, 0.699);
 }
@@ -12,17 +13,13 @@
 }
 
 .efecto-nav {
-    transition: 0.2s;
+    transition: 0.5s;
     color: rgb(94, 33, 41)  !important; 
 }
 
 .efecto-nav:hover {
     color: white !important;
     background-color: rgb(94, 33, 41) !important;
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
 }

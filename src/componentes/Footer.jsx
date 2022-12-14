@@ -9,12 +9,12 @@ export default function Footer() {
 
         <div className="footer-left">
 
-          <h3><img style={{ width: "75px", height: "75px" }} src={Kesi} alt="" /> Keis</h3>
+          <h3><img style={{ width: "75px", height: "75px" }} src={Kesi} alt="" /> <b>Keis</b> </h3>
 
           <p className="footer-links">
             <a className="mt-2 " href="#inicio">Inicio</a>
             <br />
-            <a className="mt-2" href="#encuesta" blog>Encuestas</a>
+            <a className="mt-2" href="#encuesta">Encuestas</a>
             <br />
             <a className="mt-2" href="#higene">Controles de Higene y Seguridad</a>
             <br />
