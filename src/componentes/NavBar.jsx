@@ -21,7 +21,7 @@ export default function NavBar() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav>
                             <b><Nav.Link style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav mv-1" href="#inicio">Inicio</Nav.Link></b>
-                            <b><Nav.Link style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav mv-1" href="#about">Sobre nosotros</Nav.Link></b>
+                            <b><Nav.Link style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav mv-1" href="#about">About</Nav.Link></b>
                             <b><Nav.Link style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav" href="#encuesta">Encuestas</Nav.Link></b>
                             <b><Nav.Link style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav" href="#controles">Controles</Nav.Link></b>
                             <b><Nav.Link style={{ paddingTop: "14px", paddingRight: "50px", paddingLeft: "50px" }} className="efecto-nav" href="#galeria">Galeria</Nav.Link></b>
