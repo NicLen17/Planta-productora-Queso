@@ -34,7 +34,7 @@ export default function Footer() {
         <div className="footer-right">
 
           <b><p className="mt-3">Direccion:</p></b> <br />
-          <p>San Juan 2015, T4103FFU Tafí Viejo, Tucumán</p>
+          <p>San Juan 2015, Tafí Viejo, Tucumán</p>
 
           <div className="mapa-footer mt-2" action="#" method="post">
 
